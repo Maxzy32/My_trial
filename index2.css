@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.header{
+    height:150vh;
+    width: 100%;
+}
+.header_image{
+    height:65vh;
+    width: 100%;
+   /* background-image:linear-gradient(rgba(0, 0, 0, 7),rgba(2, 1, 1, 0)), url('images/pexels-photomix-company-518244.jpg');*/
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    background-color: rgb(235, 235, 231);
+    position: absolute;
+}
+
+.nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.links{
+    flex: 1;
+    text-align:right;
+}
+.links ul li{
+    list-style: none;
+    display: inline;
+    padding: 8px 12px;
+    position:relative;
+    left: -100px;
+}
+
+.links ul li a{
+    color:  #fff; 
+    text-decoration: none;
+    font-size: 15px;
+    
+  /*  font-family: sans-serif;*/
+}   
+.links ul li a:hover{
+/*border: 1px solid rgb(240, 121, 66);*/
+color:rgb(240, 121, 66);
+width: 0;
+height:2px;
+/*color:  rgb(245, 241, 241);*/
+/*display:block;*/
+margin:auto;
+transition: 0.05s;
+}
+/*.links ul li :hover::after{
+    width: 100%;
+     rgb(245, 241, 241)
+}*/
+/*.over_all_mother{
+    background-color: rgba(10, 5, 5, 0.114);
+
+}*/
+
+.contact_1{
+  height: 140vh;
+    background-color: rgb(245, 241, 241);
+    
+    margin-bottom: 10px;
+    position: relative;
+    top:-410px;
+}
+.mother:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+
+.par{
+ width: 100%;
+height: 80vh;
+margin-top: 90px;
+display: flex;
+align-content: center;
+}
+
+.ai_post{
+    width: 50%;
+height:60vh;
+flex: left;
+margin-left:50px;
+}
+
+.ai_post p{
+    width: 100%;
+    text-align: center;
+    margin-right: 25;
+    text-justify: auto;
+    margin-top: 10px;
+    }
+
+.ai_post h2{
+    text-align: center;
+    margin-top: -30px;
+}    
+    
+.ai_img{
+width: 50%;
+height:60vh;
+/*background-color: azure;*/
+flex: right;
+margin-left:79px;
+background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.527)),url('images/pexels-markus-spiske-177598.jpg');
+background-size: cover;
+border: 0px;
+padding: 0px;
+object-fit: cover;
+}
+
+.ai_img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+/*.ai_img img{
+    width:90%;
+    height: 60vh;
+background-size:cover;
+margin: 2px;
+
+}*/
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+input, select, textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+  font-size: 1rem;
+}
+label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #0062cc;
+}
+.message_1{
+height: 130px;
+}
+h1{
+  text-align: center;
+}
+/* #confirmation-message {
+font-weight: bold;
+color:black;
+width: 100px;
+height: 20px;;
+
+border-radius: 3px;
+}*/
